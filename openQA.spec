@@ -4,7 +4,7 @@
 #
 Name     : openQA
 Version  : 4.5.1528009330.e68ebe2b
-Release  : 6
+Release  : 7
 URL      : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source0  : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source1  : http://localhost/cgit/projects/openQA-dep/snapshot/openQA-dep-latest.tar.gz
