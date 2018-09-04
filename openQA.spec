@@ -4,7 +4,7 @@
 #
 Name     : openQA
 Version  : 4.5.1528009330.e68ebe2b
-Release  : 5
+Release  : 6
 URL      : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source0  : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source1  : http://localhost/cgit/projects/openQA-dep/snapshot/openQA-dep-latest.tar.gz
@@ -14,6 +14,174 @@ License  : GPL-2.0
 Requires: openQA-config
 Requires: openQA-license
 Requires: openQA-data
+Requires: perl-Archive-Extract
+Requires: perl-B-Hooks-EndOfScope
+Requires: perl-BSD-Resource
+Requires: perl-BSD-Resource-lib
+Requires: perl-BSD-Resource-license
+Requires: perl-Carp-Clan
+Requires: perl-Carp-Clan-dev
+Requires: perl-Class-Accessor-Grouped
+Requires: perl-Class-C3-Componentised
+Requires: perl-Class-Data-Inheritable
+Requires: perl-Class-Data-Inheritable-doc
+Requires: perl-Class-Load
+Requires: perl-Class-Load-dev
+Requires: perl-Class-Method-Modifiers
+Requires: perl-Class-Method-Modifiers-dev
+Requires: perl-Class-Singleton
+Requires: perl-Class-Singleton-man
+Requires: perl-Clone-Choose
+Requires: perl-Clone-Choose-dev
+Requires: perl-Config-IniFiles
+Requires: perl-Config-IniFiles-dev
+Requires: perl-Config-IniFiles-license
+Requires: perl-Context-Preserve
+Requires: perl-Context-Preserve-dev
+Requires: perl-Cpanel-JSON-XS
+Requires: perl-Cpanel-JSON-XS-bin
+Requires: perl-Cpanel-JSON-XS-dev
+Requires: perl-Cpanel-JSON-XS-lib
+Requires: perl-Cpanel-JSON-XS-license
+Requires: perl-Cpanel-JSON-XS-man
+Requires: perl-DBIx-Class
+Requires: perl-DBIx-Class-DeploymentHandler
+Requires: perl-DBIx-Class-DeploymentHandler-dev
+Requires: perl-DBIx-Class-DeploymentHandler-license
+Requires: perl-DBIx-Class-DynamicDefault
+Requires: perl-DBIx-Class-DynamicDefault-dev
+Requires: perl-DBIx-Class-OptimisticLocking
+Requires: perl-DBIx-Class-OptimisticLocking-dev
+Requires: perl-DBIx-Class-OptimisticLocking-license
+Requires: perl-DBIx-Class-dev
+Requires: perl-Data-Dump
+Requires: perl-Data-Dump-man
+Requires: perl-Data-Dumper-Concise
+Requires: perl-Data-Dumper-Concise-dev
+Requires: perl-Data-OptList
+Requires: perl-Data-OptList-license
+Requires: perl-Data-OptList-man
+Requires: perl-Date-Format
+Requires: perl-Date-Format-dev
+Requires: perl-DateTime
+Requires: perl-DateTime-Locale
+Requires: perl-DateTime-Locale-doc
+Requires: perl-DateTime-dev
+Requires: perl-DateTime-lib
+Requires: perl-DateTime-license
+Requires: perl-Devel-GlobalDestruction
+Requires: perl-Devel-OverloadInfo
+Requires: perl-Devel-OverloadInfo-man
+Requires: perl-Devel-StackTrace
+Requires: perl-Devel-StackTrace-license
+Requires: perl-Devel-StackTrace-man
+Requires: perl-Devel-Symdump
+Requires: perl-Eval-Closure
+Requires: perl-Eval-Closure-license
+Requires: perl-Eval-Closure-man
+Requires: perl-Exception-Class
+Requires: perl-Exception-Class-license
+Requires: perl-Exception-Class-man
+Requires: perl-Exporter-Declare
+Requires: perl-Exporter-Declare-dev
+Requires: perl-File-ShareDir
+Requires: perl-File-ShareDir-license
+Requires: perl-File-ShareDir-man
+Requires: perl-Hash-Merge
+Requires: perl-Hash-Merge-dev
+Requires: perl-IPC-Run
+Requires: perl-IPC-Run-man
+Requires: perl-Import-Into
+Requires: perl-Import-Into-man
+Requires: perl-JSON
+Requires: perl-Log-Contextual
+Requires: perl-Log-Contextual-dev
+Requires: perl-Log-Contextual-license
+Requires: perl-MRO-Compat
+Requires: perl-Meta-Builder
+Requires: perl-Meta-Builder-dev
+Requires: perl-Module-Find
+Requires: perl-Module-Find-dev
+Requires: perl-Module-Implementation
+Requires: perl-Module-Runtime
+Requires: perl-Mojolicious
+Requires: perl-Mojolicious-Plugin-AssetPack
+Requires: perl-Mojolicious-Plugin-AssetPack-dev
+Requires: perl-Mojolicious-bin
+Requires: perl-Mojolicious-dev
+Requires: perl-Moo
+Requires: perl-Moo-dev
+Requires: perl-Moose
+Requires: perl-Moose-bin
+Requires: perl-Moose-dev
+Requires: perl-Moose-lib
+Requires: perl-MooseX-Role-Parameterized
+Requires: perl-MooseX-Role-Parameterized-license
+Requires: perl-Net-DBus
+Requires: perl-Net-DBus-dev
+Requires: perl-Net-DBus-lib
+Requires: perl-Net-DBus-license
+Requires: perl-Package-DeprecationManager
+Requires: perl-Package-DeprecationManager-dev
+Requires: perl-Package-DeprecationManager-license
+Requires: perl-Package-Stash
+Requires: perl-Package-Variant
+Requires: perl-Package-Variant-dev
+Requires: perl-Params-ValidationCompiler
+Requires: perl-Params-ValidationCompiler-dev
+Requires: perl-Params-ValidationCompiler-license
+Requires: perl-Path-Class
+Requires: perl-Pod-Coverage
+Requires: perl-Pod-Coverage-bin
+Requires: perl-Pod-POM
+Requires: perl-Pod-POM-bin
+Requires: perl-Pod-POM-dev
+Requires: perl-Pod-POM-license
+Requires: perl-Pod-POM-man
+Requires: perl-Regexp-Common
+Requires: perl-Regexp-Common-license
+Requires: perl-Regexp-Common-man
+Requires: perl-Role-Tiny
+Requires: perl-Role-Tiny-man
+Requires: perl-SQL-Abstract
+Requires: perl-SQL-Abstract-dev
+Requires: perl-SQL-Translator
+Requires: perl-SQL-Translator-bin
+Requires: perl-SQL-Translator-dev
+Requires: perl-SQL-Translator-man
+Requires: perl-Socket-MsgHdr
+Requires: perl-Socket-MsgHdr-lib
+Requires: perl-Specio-Exporter
+Requires: perl-Specio-Exporter-dev
+Requires: perl-Specio-Exporter-license
+Requires: perl-Sub-Exporter
+Requires: perl-Sub-Exporter-Progressive
+Requires: perl-Sub-Exporter-doc
+Requires: perl-Sub-Identify
+Requires: perl-Sub-Identify-lib
+Requires: perl-Sub-Identify-man
+Requires: perl-Sub-Name
+Requires: perl-Sub-Name-lib
+Requires: perl-Sub-Name-man
+Requires: perl-Sub-Quote
+Requires: perl-Test-Compile
+Requires: perl-Text-Markdown
+Requires: perl-Text-Markdown-bin
+Requires: perl-Text-Markdown-dev
+Requires: perl-Text-Markdown-man
+Requires: perl-Variable-Magic
+Requires: perl-Variable-Magic-lib
+Requires: perl-XML-Twig
+Requires: perl-XML-Twig-bin
+Requires: perl-XML-Twig-dev
+Requires: perl-XML-Twig-man
+Requires: perl-aliased
+Requires: perl-aliased-dev
+Requires: perl-namespace-autoclean
+Requires: perl-namespace-autoclean-doc
+Requires: perl-namespace-clean
+Requires: perl-strictures
+Requires: perl-strictures-dev
 BuildRequires : perl(IPC::Run3)
 BuildRequires : perl(Mojolicious::Lite)
 BuildRequires : perl(Mojolicious::Plugin::AssetPack::Pipe)
@@ -61,11 +229,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1533319305
+export SOURCE_DATE_EPOCH=1536057096
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1533319305
+export SOURCE_DATE_EPOCH=1536057096
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/doc/openQA
 cp COPYING %{buildroot}/usr/share/doc/openQA/COPYING
