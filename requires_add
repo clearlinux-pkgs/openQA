@@ -39,8 +39,6 @@ perl-Data-Dump-man
 perl-Data-OptList
 perl-Data-OptList-license
 perl-Data-OptList-man
-perl-Date-Format
-perl-Date-Format-dev
 perl-DateTime
 perl-DateTime-dev
 perl-DateTime-lib
@@ -136,9 +134,6 @@ perl-Role-Tiny
 perl-Role-Tiny-man
 perl-Socket-MsgHdr
 perl-Socket-MsgHdr-lib
-perl-Specio-Exporter
-perl-Specio-Exporter-dev
-perl-Specio-Exporter-license
 perl-SQL-Abstract
 perl-SQL-Abstract-dev
 perl-SQL-Translator

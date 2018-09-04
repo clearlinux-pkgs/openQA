@@ -61,8 +61,6 @@ Requires: perl-Data-Dumper-Concise-dev
 Requires: perl-Data-OptList
 Requires: perl-Data-OptList-license
 Requires: perl-Data-OptList-man
-Requires: perl-Date-Format
-Requires: perl-Date-Format-dev
 Requires: perl-DateTime
 Requires: perl-DateTime-Locale
 Requires: perl-DateTime-Locale-doc
@@ -151,9 +149,6 @@ Requires: perl-SQL-Translator-dev
 Requires: perl-SQL-Translator-man
 Requires: perl-Socket-MsgHdr
 Requires: perl-Socket-MsgHdr-lib
-Requires: perl-Specio-Exporter
-Requires: perl-Specio-Exporter-dev
-Requires: perl-Specio-Exporter-license
 Requires: perl-Sub-Exporter
 Requires: perl-Sub-Exporter-Progressive
 Requires: perl-Sub-Exporter-doc
