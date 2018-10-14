@@ -22,7 +22,7 @@ perl-Crypt-DH-GMP
 perl-CSS-Minifier-XS
 perl-Data-Dump
 perl-Data-Dumper-Concise
-perl-Data-Dump-man
+perl-Data-Dump-dev
 perl-Data-OptList
 perl-DateTime
 perl-DateTime-Format-Builder

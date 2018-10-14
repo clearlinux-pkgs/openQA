@@ -4,16 +4,16 @@
 #
 Name     : openQA
 Version  : 4.5.1528009330.e68ebe2b
-Release  : 8
+Release  : 9
 URL      : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source0  : https://github.com/os-autoinst/openQA/archive/4.5.1528009330.e68ebe2b.tar.gz
 Source1  : http://localhost/cgit/projects/openQA-dep/snapshot/openQA-dep-latest.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: openQA-config
-Requires: openQA-license
-Requires: openQA-data
+Requires: openQA-config = %{version}-%{release}
+Requires: openQA-data = %{version}-%{release}
+Requires: openQA-license = %{version}-%{release}
 Requires: perl-Archive-Extract
 Requires: perl-B-Hooks-EndOfScope
 Requires: perl-BSD-Resource
@@ -40,7 +40,7 @@ Requires: perl-DBIx-Class-DynamicDefault
 Requires: perl-DBIx-Class-OptimisticLocking
 Requires: perl-DBIx-Class-Schema-Config
 Requires: perl-Data-Dump
-Requires: perl-Data-Dump-man
+Requires: perl-Data-Dump-dev
 Requires: perl-Data-Dumper-Concise
 Requires: perl-Data-OptList
 Requires: perl-DateTime
@@ -159,14 +159,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1536328911
+export SOURCE_DATE_EPOCH=1539530063
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1536328911
+export SOURCE_DATE_EPOCH=1539530063
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/openQA
-cp COPYING %{buildroot}/usr/share/doc/openQA/COPYING
+mkdir -p %{buildroot}/usr/share/package-licenses/openQA
+cp COPYING %{buildroot}/usr/share/package-licenses/openQA/COPYING
 %make_install
 
 %files
@@ -751,5 +751,5 @@ cp COPYING %{buildroot}/usr/share/doc/openQA/COPYING
 /usr/share/openqa/templates/test/tr_job_result_failedmodules.html.ep
 
 %files license
-%defattr(-,root,root,-)
-/usr/share/doc/openQA/COPYING
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/openQA/COPYING
