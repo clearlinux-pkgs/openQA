@@ -1,18 +1,24 @@
-From 9cb3c0e5630efe1d0b2cf31a56da8d3be188af3c Mon Sep 17 00:00:00 2001
+From e0304890409f1237faafad6ce0824c70f2976fdb Mon Sep 17 00:00:00 2001
 From: William Douglas <william.douglas@intel.com>
 Date: Thu, 2 Aug 2018 21:22:55 +0000
 Subject: [PATCH 2/2] Update tmpfiles to account for stateless configuration
 
 ---
- systemd/tmpfiles-openqa.conf | 15 ++++++++++++++-
- 1 file changed, 14 insertions(+), 1 deletion(-)
+
+Update to version 7a262516c4cac633835273c3bb2a01eb1a3df2a8
+
+Signed-off-by: Jair Gonzalez <jair.de.jesus.gonzalez.plascencia@intel.com>
+---
+ systemd/tmpfiles-openqa.conf | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
 
 diff --git a/systemd/tmpfiles-openqa.conf b/systemd/tmpfiles-openqa.conf
-index e1641ce..dc1b33b 100644
+index e2651f0..dc1b33b 100644
 --- a/systemd/tmpfiles-openqa.conf
 +++ b/systemd/tmpfiles-openqa.conf
-@@ -1 +1,14 @@
+@@ -1,2 +1,14 @@
 -d /run/openqa 0755 _openqa-worker root
+-d /var/lib/openqa/share 0755 root root
 +d /run/openqa 0755
 +f /var/lib/openqa/db/db.sqlite 0640
 +d /var/lib/openqa/images
@@ -28,5 +34,5 @@ index e1641ce..dc1b33b 100644
 +L /var/lib/openqa/tests - - - - /var/lib/openqa/share/tests
 +d /var/lib/openqa/testresults
 -- 
-2.18.0
+2.22.0
 
