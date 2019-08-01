@@ -4,7 +4,7 @@
 #
 Name     : openQA
 Version  : 4.6.7a262516
-Release  : 11
+Release  : 12
 URL      : https://github.com/os-autoinst/openQA/archive/7a262516c4cac633835273c3bb2a01eb1a3df2a8/openQA-7a262516c4cac633835273c3bb2a01eb1a3df2a8.tar.gz
 Source0  : https://github.com/os-autoinst/openQA/archive/7a262516c4cac633835273c3bb2a01eb1a3df2a8/openQA-7a262516c4cac633835273c3bb2a01eb1a3df2a8.tar.gz
 Source1  : http://localhost/cgit/projects/openQA-dep/snapshot/openQA-dep-latest.tar.gz
