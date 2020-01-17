@@ -1,5 +1,5 @@
 PKG_NAME := openQA
-URL = https://github.com/os-autoinst/openQA/archive/7a262516c4cac633835273c3bb2a01eb1a3df2a8/openQA-7a262516c4cac633835273c3bb2a01eb1a3df2a8.tar.gz
+URL = https://github.com/os-autoinst/openQA/archive/102d1698335b6bd02ea8f10d38fcc2ec4ab184e9/openQA-4.6.102d1698.tar.gz
 ARCHIVES = $(CGIT_BASE_URL)/projects/openQA-dep/snapshot/openQA-dep-latest.tar.gz assets
 
 include ../common/Makefile.common
